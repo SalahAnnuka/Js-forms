@@ -19,7 +19,8 @@ body{
     border-style: solid;
     border-width: 5px;
     border-radius: 30px;
-    border-color: blueviolet;
+    border-color: rgb(30, 128, 74);
+    background-color: rgb(245, 232, 205);
 }
 
 .field{
@@ -27,6 +28,7 @@ body{
     height: 30px;
     padding: 12px;
     border-radius: 12px;
+    border-color: rgb(30, 128, 74);
     border-style: solid;
 }
 
