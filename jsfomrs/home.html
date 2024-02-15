@@ -1,13 +1,21 @@
 <!DOCTYPE html>
 <html>
-    <head></head>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
     <body>
-        <div>
-            <input type="text" id="email" onchange="onChangeEmail()">
-            <input type="password" id="password" onchange="onChangePassword()">
-            <input type="tel" id="telephone" onchange="onChangeTelephone()">
+        <div class="container">
+            <h1 id="title">Welcome</h1>
+            <input type="text" class="field" id="email" onchange="onChangeEmail()" placeholder="Email">
+            <input type="password" class="field" id="password" onchange="onChangePassword()" placeholder="Password">
+            <input type="tel" class="field" id="telephone" onchange="onChangeTelephone()" placeholder="Telephone">
+            <button id="submit" onclick="onClickSubmit()">Submit</button>
         </div>
-
+        <div id="result">
+            <span id="emailResult"></span>
+            <span id="passwordResult"></span>
+            <span id="telephoneResult"></span>
+        </div>
         <script src="script.js" type="text/javascript"></script>
     </body>
 
